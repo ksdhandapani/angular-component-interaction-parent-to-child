@@ -1,0 +1,1 @@
+# angular-component-interaction-parent-to-child
