@@ -1,0 +1,46 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/parent-to-child/dist
+/parent-to-child/tmp
+/parent-to-child/out-tsc
+# Only exists if Bazel was run
+/parent-to-child/bazel-out
+
+# dependencies
+/parent-to-child/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/parent-to-child/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/parent-to-child/.sass-cache
+/parent-to-child/connect.lock
+/parent-to-child/coverage
+/parent-to-child/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/parent-to-child/typings
+
+# System Files
+.DS_Store
+Thumbs.db
